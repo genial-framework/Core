@@ -11,22 +11,11 @@
  * @license   <https://github.com/Genial-Framework/Core/blob/master/LICENSE> New BSD License.
  */
 
-namespace Genial\Core;
+namespace Genial\Core\Exception;
 
 /**
- * Utils.
+ * LengthException.
  */
-class LengthException
+class LengthException extends \LengthException implements ExceptionInterface
 {
-    /**
-     * getCoreParams().
-     *
-     * Get the currently set cookie params.
-     *
-     * @return array Return the currently set cookie params.
-     */
-    public static function getCoreParams()
-    {
-        return session_get_cookie_params();
-    }
 }
