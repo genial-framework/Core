@@ -18,7 +18,8 @@
         }
     ],
     "require": {
-        "php": "^7.0"
+        "php": "^7.0",
+        "genial-framework/env": "1.*"
     },
     "autoload": {
         "psr-4": {
