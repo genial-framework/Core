@@ -16,13 +16,13 @@ namespace Genial\Core;
 /**
  * Utils.
  */
-class Utils
+class LengthException
 {
     /**
      * getCoreParams().
      *
      * Get the currently set cookie params.
-     * 
+     *
      * @return array Return the currently set cookie params.
      */
     public static function getCoreParams()
