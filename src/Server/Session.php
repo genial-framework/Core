@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Genial Framework.
  *
  * @author    Nicholas English <https://github.com/Nenglish7>
