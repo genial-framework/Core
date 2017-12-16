@@ -10,4 +10,4 @@
  * @copyright Copyright (c) 2017-2018 Genial Framework. <https://github.com/Genial-Framework>
  * @license   <https://github.com/Genial-Framework/Core/blob/master/LICENSE> New BSD License.
  */
-define('GENIAL_CORE', true);
+define('GENIAL_CORE_ACTIVE', true);
