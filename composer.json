@@ -1,6 +1,13 @@
 {
     "name": "genial-framework/core",
     "type": "library",
+    "keywords": [
+        "php7",
+        "library",
+        "php-framework",
+        "genial-framework",
+        "core"
+    ],
     "description": "Core classes, functions, and constants for Genial Framework.",
     "homepage": "https://github.com/Genial-Framework/Core",
     "license": "BSD-3-Clause",
