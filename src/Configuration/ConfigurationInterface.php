@@ -10,7 +10,7 @@
  * @license   <https://github.com/Genial-Framework/Core/blob/master/LICENSE> New BSD License.
  */
 
-namespace Genial\Configuration;
+namespace Genial\Core\Configuration;
 
 /**
  * ConfigurationInterface.
