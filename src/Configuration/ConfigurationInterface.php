@@ -20,6 +20,7 @@ interface ConfigurationInterface
     /**
      * Get and set the configuration.
      *
+     * @throws RuntimeException         If the `SYSTEM_ROOT` constant does not exist.
      * @throws BadFunctionCallException If the `env()` function does not exist.
      *
      * @return bool|true Returns true if the configuration was set correctly.
