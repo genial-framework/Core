@@ -48,6 +48,7 @@ abstract class AbstractSessionConfiguration implements ConfigurationInterface, S
             ));
         }
         $this->configuration = env('session');
+        return true;
     }
     /**
      * Run the configuration.
@@ -56,11 +57,7 @@ abstract class AbstractSessionConfiguration implements ConfigurationInterface, S
      */
     public function run()
     {
-        $this->setSessionName();
-        $this->setSessionSaveHandler();
-        $this->setSessionCookieParams();
-        $this->setSessionGarbageCollector();
-        $this->setSessionSecurity();
         return true;
     }
+ 
 }
