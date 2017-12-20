@@ -26,12 +26,20 @@ abstract class AbstractSessionConfiguration implements ConfigurationInterface, S
     /**
      * Get and set the configuration.
      *
+     * @throws RuntimeException         If the `SYSTEM_ROOT` constant does not exist.
      * @throws BadFunctionCallException If the `env()` function does not exist.
      *
      * @return bool|true Returns true if the configuration was set correctly.
      */
     function __construct()
     {
+        if (!defined('SYSTEM_ROOT'))
+        {
+            throw new Exception\RuntimeException(sprintf(
+                '`%s` The `SYSTEM_ROOT` constant does not exist.',
+                __METHOD__
+            ));
+        } 
         if (!function_exists('env'))
         {
             throw new Exception\BadFunctionCallException(sprintf(
